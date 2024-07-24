@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="iphone.browser.OpenBrowser"/>
+    <fullyQualifiedTypeName name="iphone.browser.CloseBrowser"/>
+    <fullyQualifiedTypeName name="funcoes.navegador.NavegadorInternet"/>
+    <fullyQualifiedTypeName name="funcoes.navegador.AbreNavegador"/>
+    <fullyQualifiedTypeName name="desafioPOOiphone.functions.browser.OpenCloseBrowser"/>
+    <fullyQualifiedTypeName name="desafioPOOiphone.functions.browser.BrowserInternet"/>
+    <fullyQualifiedTypeName name="desafioPOOiphone.functions.player.MusicPlayer"/>
+    <fullyQualifiedTypeName name="desafioPOOiphone.functions.telephone.Telephone"/>
+    <fullyQualifiedTypeName name="desafioPOOiphone.functions.player.PlayStopMusic"/>
+    <fullyQualifiedTypeName name="desafioPOOiphone.functions.multifunction.multiFunction"/>
+    <fullyQualifiedTypeName name="desafioPOOiphone.functions.telephone.ReceiveSendCall"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+</qualifiedTypeNameHistroy>

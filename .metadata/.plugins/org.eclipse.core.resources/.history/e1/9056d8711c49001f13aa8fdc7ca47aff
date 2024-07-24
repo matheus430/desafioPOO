@@ -1,0 +1,8 @@
+package funcoes.navegador;
+
+public interface AbreNavegador {
+
+	public void abrirNavegador();
+	
+
+}

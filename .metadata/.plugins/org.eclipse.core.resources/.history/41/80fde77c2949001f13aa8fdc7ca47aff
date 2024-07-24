@@ -1,0 +1,10 @@
+package desafioPOOiphone.functions.browser;
+
+public class BrowserInternet implements OpenCloseBrowser{
+
+	public void openCloseBrowser() {
+		System.out.println("Opening browser");
+		System.out.println("Closing browser");
+	}
+	
+}

@@ -1,0 +1,108 @@
+package iphone;
+
+import java.util.Scanner;
+import java.util.Locale;
+import desafioPOOiphone.functions.multifunction.MultiFunction;
+
+
+public class Iphone {
+	public static void main(String[] args) {
+		MultiFunction mf = new MultiFunction();
+		MultiFunction mp = mf; // music player
+		MultiFunction bi = mf; // browser internet
+		MultiFunction tp = mf; // telephone
+		
+		System.out.println("Your iPhone has started, welcome!");
+		System.out.println("_____________________________");
+		Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+		
+		String optionUser;
+        do {
+            System.out.println("\nEnter the desired menu option or 'exit' to close." + "\n" + "1 - Safari" + "\n" + "2 - Ipod" + "\n" + "3 - Telephone");
+            optionUser = scanner.nextLine();
+
+            switch (optionUser) {
+                case "1":
+                    bi.openBrowser();
+                    bi.checkConnection();
+                    System.out.println("Insert URL page: 'ex: www.google.com' " + "\n");
+                    String pageUser = scanner.nextLine();
+                    System.out.println("Successful access in: " + pageUser);
+                    System.out.println("_____________________________");
+
+                    String sfrFunctions;
+                    do {
+                        System.out.println("Safari options: " + "\n" + "1 - Show page" + "\n" + "2 - Update page" + "\n" + "3 - Add new tab" + "\n" + "0 - Back to main menu");
+                        sfrFunctions = scanner.nextLine();
+
+                        switch (sfrFunctions) {
+                            case "1":
+                                System.out.println("Current page: " + pageUser + "\n");
+                                break;
+                            case "2":
+                                bi.updatePage();
+                                break;
+                            case "3":
+                                bi.addNewTab();
+                                System.out.println("Insert new URL page:" + "\n");
+                                String newpageUser = scanner.nextLine();
+                                bi.showPage();
+                                System.out.println(newpageUser);
+                                break;
+                            case "0":
+                                break; 
+                            default:
+                                System.out.println("Invalid option. Please try again.");
+                        }
+                    } while (!sfrFunctions.equals("0"));
+                    break;
+                case "2":
+                    mp.openPlayer();
+                    System.out.println("Playlist");
+                    String[] musicList = {
+                    	    "Bohemian Rhapsody - Queen",
+                    	    "Imagine - John Lennon",
+                    	    "Hotel California - Eagles",
+                    	    "Hey Jude - The Beatles",
+                    	    "Billie Jean - Michael Jackson"
+                    	};
+                    for(String song : musicList) {
+                    	System.out.println(song);
+                    }
+                    	
+                    
+                    
+                    String ipodFunctions;
+                    do {
+                    	System.out.println("Ipod options: " + "\n" + "1 - Play music" + "\n" + "2 - Stop music" + "\n" + "3 - Select music" + "\n" + "0 - Close ipod");
+                    	ipodFunctions = scanner.nextLine();
+                    	
+                    	switch(ipodFunctions) {
+                    	case "1":
+                    		
+                    		break;
+                    	case "2":
+                    		break;
+                    	case "3":
+                    		break;
+                    	case "0":
+                    		break;
+                    	default:
+                    		System.out.println("Invalid option. Please try again.");
+                    	}
+                    } while (!ipodFunctions.equals("0"));
+                    break;
+                case "3":
+                    
+                    break;
+                case "exit":
+                    System.out.println("Exiting... Goodbye!");
+                    break;
+                default:
+                    System.out.println("Invalid option. Please try again.");
+            }
+        } while (!optionUser.equals("exit"));
+
+        scanner.close();
+    }
+}

@@ -1,0 +1,5 @@
+package desafioPOOiphone.functions.browser.copy;
+
+public class OpenCloseBrowser extends BrowserInternet {
+
+}

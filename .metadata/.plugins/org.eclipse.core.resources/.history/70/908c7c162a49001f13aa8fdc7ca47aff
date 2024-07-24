@@ -1,0 +1,11 @@
+package desafioPOOiphone.functions.telephone;
+
+public class Telephone implements ReceiveSendCall{
+
+	public void receiveSendCall() {
+		System.out.println("Make a call");
+		System.out.println("Receiving call");
+		
+	}
+
+}

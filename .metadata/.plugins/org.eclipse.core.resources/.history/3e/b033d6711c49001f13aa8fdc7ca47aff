@@ -1,0 +1,20 @@
+package desafioPOOiphone;
+
+import funcoes.navegador.AbreNavegador;
+import funcoes.navegador.NavegadorInternet;
+import funcoes.reprodutor.ReprodutorMusical;
+import funcoes.telefone.AparelhoTelefonico;
+
+public class Funcoes implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet{
+	public static void main(String[] args) {
+	   AbreNavegador iphone = new AbreNavegador() {
+		   
+	
+		public void abrirNavegador() {
+			// TODO Auto-generated method stub
+			iphone.abrirNavegador();
+		}
+		
+	}
+	
+}

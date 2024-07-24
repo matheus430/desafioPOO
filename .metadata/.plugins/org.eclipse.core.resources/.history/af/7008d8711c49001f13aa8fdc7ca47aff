@@ -1,0 +1,7 @@
+package funcoes.reprodutor;
+
+public interface PararMusica {
+
+	public void paraMusica();
+
+}

@@ -1,0 +1,5 @@
+package desafioPOOiphone;
+
+public class ReproduzirMusica extends ReprodutorMusical {
+
+}

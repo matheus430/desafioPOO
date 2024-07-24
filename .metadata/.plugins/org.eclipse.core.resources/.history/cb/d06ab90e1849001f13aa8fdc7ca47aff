@@ -1,0 +1,11 @@
+package funcoes.reprodutor;
+
+public class ReproduzirMusica implements ReprodutorMusical {
+
+	@Override
+	public void reproduzir() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

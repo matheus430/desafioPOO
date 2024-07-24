@@ -1,0 +1,18 @@
+package funcoes.reprodutor;
+
+public interface ReprodutorMusical extends PararMusica, ReproduzirMusica  {
+	public static void abrirReprodutor() {
+		System.out.println("Abrir reprodutor!");
+	}
+	
+	public default void reproduzirMusica() {
+		System.out.println("Reproduzir!");
+		
+	}
+
+	public default void paraMusica() {
+		System.out.println("Parar!");
+		
+	}
+	
+}

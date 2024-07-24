@@ -1,0 +1,5 @@
+package funcoes.reprodutor;
+
+public class ReprodutorMusical implements PararMusica, ReproduzirMusica  {
+	public void reproduzir();
+}

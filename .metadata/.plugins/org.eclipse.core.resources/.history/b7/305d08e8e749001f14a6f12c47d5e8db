@@ -1,0 +1,22 @@
+package desafioPOOiphone.functions.telephone;
+
+public class Telephone implements ReceiveSendCall{
+	
+	public void checkCredit() {
+		System.out.println("\n" + "You have credits");
+	}
+	
+	public void finishCall() {
+		System.out.println("Ended call" + "\n");
+		System.out.println("_____________________________");
+	}
+
+	public void receiveSend() {
+		System.out.println("Receiving call...");
+	}
+
+	public void sendCall() {
+		System.out.println("Make a call...");
+		
+	}
+}

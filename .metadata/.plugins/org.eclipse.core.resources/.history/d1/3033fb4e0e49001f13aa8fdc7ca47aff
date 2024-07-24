@@ -1,0 +1,5 @@
+package funcoes.navegador;
+
+public class AbreNavegador extends NavegadorInternet {
+
+}

@@ -1,0 +1,31 @@
+package desafioPOOiphone.functions.browser;
+
+public class BrowserInternet implements OpenCloseBrowser{
+	
+	private void openBrowser() {
+		System.out.println("Opening browser" + "\n");
+	}
+	
+	private void closeBrowser() {
+		System.out.println("\n" + "Closing browser");
+		System.out.println("_____________________________");
+	}
+	
+	private void checkConnection() {
+		System.out.println("Checking connection...");
+		System.out.println("Connected!");
+	}
+
+	
+	public void showPage() {
+		System.out.println("Your page is: ");
+	}
+
+	public void addNewTab() {
+		
+	}
+
+	public void updatePage() {
+		
+	}
+}

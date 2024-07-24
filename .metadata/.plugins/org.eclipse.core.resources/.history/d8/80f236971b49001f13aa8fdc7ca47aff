@@ -1,0 +1,17 @@
+package funcoes.navegador;
+
+public interface NavegadorInternet extends AbreNavegador, FechaNavegador {
+	public static void navegar() {
+		
+		System.out.println("Navegando...");
+		
+	}
+	public default void abrirNavegador() {
+		System.out.println("Abrir navegador!");
+	}
+	
+	public default void fecharNavegador() {
+		System.out.println("Fechar navegador!");
+	}
+
+}

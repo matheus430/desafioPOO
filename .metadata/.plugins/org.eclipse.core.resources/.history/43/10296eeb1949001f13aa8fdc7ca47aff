@@ -1,0 +1,5 @@
+package desafioPOOiphone;
+import funcoes.navegador.NavegadorInternet;
+public class Funcoes implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet{
+	
+}

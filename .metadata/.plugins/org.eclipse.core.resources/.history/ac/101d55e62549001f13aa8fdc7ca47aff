@@ -1,0 +1,24 @@
+package desafioPOOiphone.functions.multifunction;
+
+import desafioPOOiphone.functions.browser.OpenCloseBrowser;
+import desafioPOOiphone.functions.player.PlayStopMusic;
+import desafioPOOiphone.functions.telephone.ReceiveSendCall;
+
+public class MultiFunction implements OpenCloseBrowser,  PlayStopMusic, ReceiveSendCall{
+
+	public void receiveSendCall() {
+		System.out.println("Receiving and Make a call");
+		
+	}
+
+	public void playStopMusic() {
+		System.out.println("Playing and Stopping music");
+		
+	}
+
+	public void openCloseBrowser() {
+		System.out.println("Opening and Closing browser");
+		
+	}
+	
+}

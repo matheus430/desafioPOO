@@ -1,0 +1,24 @@
+package iphone.browser;
+
+import iphone.Iphone;
+
+public class Browser extends Iphone {
+	public static void main(String[] args) {
+		OpenBrowser safariOpen = new OpenBrowser();
+		safariOpen.openB();
+		
+		OpenBrowser checkingConnection = new OpenBrowser();
+		checkingConnection.checkConnection();
+		
+		OpenBrowser navigating = new OpenBrowser();
+		navigating.Navigate();
+		
+		CloseBrowser saveingHistoric = new CloseBrowser();
+		saveingHistoric.saveHistoric();
+		
+		CloseBrowser safariClose = new CloseBrowser();
+		safariClose.closeB();
+	}
+	
+
+}

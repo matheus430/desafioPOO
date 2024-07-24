@@ -1,0 +1,9 @@
+package funcoes.navegador;
+
+public class FechaNavegador implements NavegadorInternet {
+
+	public void navegar() {
+		
+	}
+
+}

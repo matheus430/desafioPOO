@@ -1,0 +1,15 @@
+package funcoes.telefone;
+
+public class AparelhoTelefonico implements RealizarChamada, ReceberChamada {
+
+	public void receberChamada() {
+		System.out.println("Recebendo chamada.");
+		
+	}
+
+	public void realizarChamada() {
+		System.out.println("Realizando chamada.");
+		
+	}
+	
+}

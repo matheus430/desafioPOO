@@ -1,0 +1,15 @@
+package iphone.browser;
+
+public class Browser  {
+	public static void main(String[] args) {
+		OpenBrowser safari = new OpenBrowser();
+		safari.openB();
+	}
+	public void checkConnection() {
+		System.out.println("Cheking connection");
+	}
+	
+	public void saveHistoric() {
+		System.out.println("Saving historic");
+	}
+}

@@ -1,0 +1,16 @@
+package iphone.browser;
+
+public class OpenBrowser extends Browser {
+	public void checkConnection() {
+		System.out.println("Cheking connection" + "\n");
+	}
+	public void openB() {
+		System.out.println("Open browser" + "\n");
+		
+	}
+	
+	public void Navigate() {
+		System.out.println("Navigation" + "\n");
+	}
+
+}

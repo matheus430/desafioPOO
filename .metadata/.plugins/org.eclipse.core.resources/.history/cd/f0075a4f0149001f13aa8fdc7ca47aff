@@ -1,0 +1,11 @@
+package iphone.browser;
+
+public class Browser  {
+	public void checkConnection() {
+		System.out.println("Cheking connection");
+	}
+	
+	public void saveHistoric() {
+		System.out.println("Saving historic");
+	}
+}

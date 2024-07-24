@@ -1,0 +1,10 @@
+package funcoes.navegador;
+
+public class AbreNavegador implements NavegadorInternet {
+
+	public void navegar() {
+		System.out.println("Navegando...");
+	}
+	
+
+}

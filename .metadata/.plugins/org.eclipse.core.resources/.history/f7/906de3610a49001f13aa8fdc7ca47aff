@@ -1,0 +1,6 @@
+package iphone.browser;
+
+public class OpenBrowser implements Browser {
+	
+
+}

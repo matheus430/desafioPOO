@@ -1,0 +1,28 @@
+package desafioPOOiphone.functions.player;
+
+public class MusicPlayer implements PlayStopMusic {
+	public void playMusic() {
+		System.out.println("Playing music");
+	}
+
+	public void pauseMusic() {
+		System.out.println("Stopping music");
+	}
+		
+	
+	public void openPlayer() {
+		System.out.println("\n" + "Opening player" + "\n");
+	}
+	
+	public void closePlayer() {
+		System.out.println("\n" + "Closing player");
+		System.out.println("_____________________________");
+	}
+
+	public void selectMusic() {
+		System.out.println("Select music: ");
+	}
+
+	
+
+}

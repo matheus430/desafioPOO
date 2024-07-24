@@ -1,0 +1,18 @@
+package iphone.browser;
+
+public class Browser  {
+	public static void main(String[] args) {
+		OpenBrowser safariOpen = new OpenBrowser();
+		safariOpen.openB();
+		
+		CloseBrowser safariClose = new CloseBrowser();
+		safariClose.closeB();
+	}
+	public void checkConnection() {
+		System.out.println("Cheking connection");
+	}
+	
+	public void saveHistoric() {
+		System.out.println("Saving historic");
+	}
+}

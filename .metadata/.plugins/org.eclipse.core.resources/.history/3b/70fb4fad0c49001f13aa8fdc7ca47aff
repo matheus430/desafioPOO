@@ -1,0 +1,7 @@
+package desafioPOOiphone;
+
+public class ReprodutorMusical {
+	public void reproduzir() {
+		System.out.println("reproduzindo...");
+	}
+}

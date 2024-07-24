@@ -1,0 +1,23 @@
+package desafioPOOiphone;
+
+import funcoes.navegador.NavegadorInternet;
+import funcoes.reprodutor.ReprodutorMusical;
+import funcoes.telefone.AparelhoTelefonico;
+
+public class Funcoes implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet{
+	public static void main(String[] args) {
+	   public void navegar() {
+			
+			System.out.println("Navegando...");
+			
+		}
+		public void  abrirNavegador() {
+			System.out.println("Abrir navegador!");
+		}
+		
+		public void  fecharNavegador() {
+			System.out.println("Fechar navegador!");
+		}
+	}
+	
+}

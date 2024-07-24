@@ -1,0 +1,10 @@
+package funcoes.telefone;
+
+public class ReceberChamada implements AparelhoTelefonico{
+
+	public void chamadas() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

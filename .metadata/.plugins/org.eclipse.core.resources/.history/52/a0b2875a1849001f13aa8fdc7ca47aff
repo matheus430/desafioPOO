@@ -1,0 +1,15 @@
+package funcoes.reprodutor;
+
+public class ReprodutorMusical implements PararMusica, ReproduzirMusica  {
+
+	public void reproduzirMusica() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void paraMusica() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

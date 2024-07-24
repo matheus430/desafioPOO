@@ -1,0 +1,56 @@
+package iphone;
+
+import java.util.Scanner;
+import java.util.Locale;
+import desafioPOOiphone.functions.multifunction.MultiFunction;
+
+
+public class Iphone {
+	public static void main(String[] args) {
+		MultiFunction mf = new MultiFunction();
+		MultiFunction mp = mf; // music player
+		MultiFunction bi = mf; // browser internet
+		MultiFunction tp = mf; // telephone
+		
+		System.out.println("Your iPhone has started, welcome!");
+		System.out.println("_____________________________");
+		Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+		
+		System.out.println("\n" +"Enter the desired menu option or 'exit' to close." + "\n" + "1 - Safari" + "\n" + "2 - Ipod" + "\n" + "3 - Telephone");
+		String optionUser = scanner.nextLine();
+		
+		switch(optionUser) {
+			case "1":
+				bi.openBrowser();
+				bi.checkConnection();
+				System.out.println("Insert URL page: 'ex: www.google.com' " + "\n");
+				String pageUser = scanner.nextLine();
+				System.out.println("Successful access in -> " + pageUser);
+				System.out.println("_____________________________");
+				
+				System.out.println("Safari functions: " + "\n" + "1 - Show page" + "\n" + "2 - Update page" + "\n" + "3 - Add new tab");
+				String sfrFunctions = scanner.nextLine();
+				
+				if(sfrFunctions.equals("1")) {
+					bi.showPage();
+					System.out.println(pageUser);
+				} else if(sfrFunctions.equals("2")) {
+					bi.updatePage();
+				} else if(sfrFunctions.equals("3")) {
+					bi.addNewTab();
+					System.out.println("Insert new URL page:" + "\n");
+					String newpageUser = scanner.nextLine();
+					bi.showPage();
+					System.out.println(newpageUser);
+				}
+				break;
+			case "2":
+			
+			case "3":
+			
+			case "exit":
+		
+		}
+
+	}
+}

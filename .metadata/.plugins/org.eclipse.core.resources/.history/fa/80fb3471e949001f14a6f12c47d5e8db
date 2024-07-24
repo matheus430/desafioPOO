@@ -1,0 +1,21 @@
+package desafioPOOiphone.functions.telephone;
+
+public class Telephone implements ReceiveSendCall{
+	
+	public void checkCredit() {
+	
+	}
+	
+	public void finishCall() {
+	
+	}
+
+	public void receiveCall() {
+		
+	}
+
+	public void sendCall() {
+		
+	}
+
+}

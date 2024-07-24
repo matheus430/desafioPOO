@@ -1,0 +1,6 @@
+package desafioPOOiphone.functions.player;
+
+public interface PlayStopMusic {
+	public void playMusic();
+	public void stopMusic();
+}

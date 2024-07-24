@@ -1,0 +1,79 @@
+package desafioPOOiphone.functions.multifunction;
+
+import desafioPOOiphone.functions.browser.OpenCloseBrowser;
+import desafioPOOiphone.functions.player.PlayStopMusic;
+import desafioPOOiphone.functions.telephone.ReceiveSendCall;
+
+public class MultiFunction implements OpenCloseBrowser,  PlayStopMusic, ReceiveSendCall{
+	// call
+	public void voiceMail() {
+		System.out.println("Starting voicemail");
+	}
+	
+	public void checkCredit() {
+		System.out.println("\n" + "You have credits");
+	}
+	
+	public void finishCall() {
+		System.out.println("Ended call" + "\n");
+		System.out.println("_____________________________");
+	}
+
+	public void receiveCall() {
+		System.out.println("Receiving call...");
+	}
+
+	public void sendCall() {
+		System.out.println("Sending a call...");
+	}
+	
+	// music
+	public void playMusic() {
+		System.out.println("\nPlaying music...\n");
+	}
+
+	public void pauseMusic() {
+		System.out.println("\nStopping music!\n");
+	}
+		
+	public void openPlayer() {
+		System.out.println("\n" + "Opening player" + "\n");
+	}
+	
+	public void closePlayer() {
+		System.out.println("\n" + "Closing player");
+		System.out.println("_____________________________");
+	}
+
+	public void selectMusic() {
+		System.out.println("Select music: ");
+	}
+	
+	// browser
+	public void openBrowser() {
+		System.out.println("Opening browser" + "\n");
+	}
+	
+	public void closeBrowser() {
+		System.out.println("\n" + "Closing browser");
+		System.out.println("_____________________________");
+	}
+	
+	public void checkConnection() {
+		System.out.println("Checking connection...");
+		System.out.println("Connected!");
+	}
+
+	public void showPage() {
+		System.out.println("Current page is:" );
+	}
+
+	public void addNewTab() {
+		System.out.println("New tab added");
+	}
+
+	public void updatePage() {
+		System.out.println("Updating page...");
+	}
+	
+}

@@ -1,0 +1,5 @@
+package funcoes.telefone;
+
+public class AparelhoTelefonico implements RealizarChamada, ReceberChamada {
+	public void chamadas();
+}

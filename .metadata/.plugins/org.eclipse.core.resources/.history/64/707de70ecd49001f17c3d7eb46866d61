@@ -1,0 +1,52 @@
+package desafioPOOiphone.functions.multifunction;
+
+import desafioPOOiphone.functions.browser.OpenCloseBrowser;
+import desafioPOOiphone.functions.player.PlayStopMusic;
+import desafioPOOiphone.functions.telephone.ReceiveSendCall;
+
+public class MultiFunction implements OpenCloseBrowser,  PlayStopMusic, ReceiveSendCall{
+	// call
+	public void receiveSendCall() {
+		System.out.println("Multi function call");
+		
+	}
+	
+	// music
+	public void playMusic() {
+		System.out.println("Multi function play music");
+		
+	}
+	public void stopMusic() {
+		System.out.println("Multi function stop music");
+		
+	}
+	
+	// browser
+	public void openBrowser() {
+		System.out.println("Opening browser" + "\n");
+	}
+	
+	public void closeBrowser() {
+		System.out.println("\n" + "Closing browser");
+		System.out.println("_____________________________");
+	}
+	
+	public void checkConnection() {
+		System.out.println("Checking connection...");
+		System.out.println("Connected!");
+	}
+
+	
+	public void showPage() {
+		System.out.println("Your page is: ");
+	}
+
+	public void addNewTab() {
+		System.out.println("New tab added");
+	}
+
+	public void updatePage() {
+		System.out.println("Updating page...");
+	}
+	
+}

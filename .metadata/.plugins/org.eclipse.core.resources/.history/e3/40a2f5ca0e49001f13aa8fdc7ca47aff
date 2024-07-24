@@ -1,0 +1,7 @@
+package funcoes.reprodutor;
+
+public class ReprodutorMusical {
+	public void reproduzir() {
+		System.out.println("reproduzindo...");
+	}
+}

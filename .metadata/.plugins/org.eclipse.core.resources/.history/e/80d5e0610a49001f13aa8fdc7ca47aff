@@ -1,0 +1,7 @@
+package iphone.call;
+
+public class Call {
+	public void rsCall() {
+		
+	}
+}

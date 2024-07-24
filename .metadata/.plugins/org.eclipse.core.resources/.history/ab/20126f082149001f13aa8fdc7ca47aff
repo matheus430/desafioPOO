@@ -1,0 +1,5 @@
+package desafioPOOiphone.functions.telephone;
+
+public class ReceiveSendCall extends Telephone{
+
+}

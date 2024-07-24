@@ -1,0 +1,8 @@
+package desafioPOOiphone.functions.browser;
+
+public interface OpenCloseBrowser {
+	private void openCloseBrowser();
+	public void showPage();
+	public void addNewTab();
+	public void updatePage();
+}

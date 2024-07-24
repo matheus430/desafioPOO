@@ -1,0 +1,7 @@
+package desafioPOOiphone;
+
+public class AparelhoTelefonico {
+	public void chamadas() {
+		System.out.println("realizando chamada...");
+	}
+}

@@ -1,0 +1,10 @@
+package iphone.browser;
+
+public class OpenBrowser  {
+
+	public void openB() {
+		System.out.println("Open browser" + "\n");
+		
+	}
+
+}

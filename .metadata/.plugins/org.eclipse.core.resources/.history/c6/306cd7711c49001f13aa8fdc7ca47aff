@@ -1,0 +1,7 @@
+package funcoes.reprodutor;
+
+public interface ReproduzirMusica {
+
+	public void reproduzirMusica();
+
+}

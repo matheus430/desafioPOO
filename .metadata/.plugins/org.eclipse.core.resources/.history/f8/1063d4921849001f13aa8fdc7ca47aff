@@ -1,0 +1,5 @@
+package funcoes.telefone;
+
+public interface AparelhoTelefonico {
+	public void chamadas();
+}

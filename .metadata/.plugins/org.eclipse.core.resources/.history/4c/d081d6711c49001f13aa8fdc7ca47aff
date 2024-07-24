@@ -1,0 +1,7 @@
+package funcoes.telefone;
+
+public interface RealizarChamada {
+
+	public void realizarChamada();
+
+}

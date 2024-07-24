@@ -1,0 +1,12 @@
+package iphone.browser;
+
+public class CloseBrowser extends Browser{
+	
+	public void saveHistoric() {
+		System.out.println("Saving historic" + "\n");
+	}
+	public void closeB() {
+		System.out.println("Close browser" + "\n");
+	}
+
+}

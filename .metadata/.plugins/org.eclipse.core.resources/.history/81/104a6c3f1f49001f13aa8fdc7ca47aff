@@ -1,0 +1,5 @@
+package desafioPOOiphone.functions.player.copy;
+
+public class PlayStopMusic extends MusicPlayer{
+
+}

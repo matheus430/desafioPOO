@@ -1,0 +1,9 @@
+package iphone.browser;
+
+public class CloseBrowser {
+
+	public void close() {
+		System.out.println("Close browser\n");
+	}
+
+}

@@ -1,0 +1,5 @@
+package funcoes.telefone;
+
+public class ReceberChamada extends AparelhoTelefonico{
+
+}

@@ -1,0 +1,17 @@
+package funcoes.telefone;
+
+public interface AparelhoTelefonico extends RealizarChamada, ReceberChamada {
+	public static void abrirTelefone() {
+		System.out.println("Abrir telefone!");
+	}
+	public default void receberChamada() {
+		System.out.println("Recebendo chamada.");
+		
+	}
+
+	public default void realizarChamada() {
+		System.out.println("Realizando chamada.");
+		
+	}
+	
+}
